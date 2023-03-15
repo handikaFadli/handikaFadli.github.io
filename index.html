@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="dist/output.css" />
+    <!-- fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Nunito+Sans:wght@200;400&display=swap" rel="stylesheet" />
+    <!-- font awesome -->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap" rel="stylesheet" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- dark mode local storage -->
     <script>
       if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
@@ -26,7 +29,7 @@
       <div class="container">
         <div class="relative flex items-center justify-between">
           <div class="px-4">
-            <a href="#home" class="block py-6 text-lg font-bold tracking-wide text-primary">Handz</a>
+            <a href="#home" class="navbar-text block py-6 text-lg font-bold tracking-wide text-primary">Handz</a>
           </div>
           <div class="flex items-center px-4">
             <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
